@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+    <script>
+    /*4: Maior Número [2]
+    Peça para o usuário informar três números e diga qual dos três é o maior número*/
+    const n1= Number(prompt(`Diga um número.`));
+    const n2= Number(prompt(`Diga um outro número.`));
+    const n3= Number(prompt(`Diga mais um número.`));
+    if (n1 == n2 == n3) {
+        alert (`${n1}, ${n2} e ${n3} são iguais.`);
+    }
+    else if (n1 > n2 > n3) {
+        alert (`${n1} é maior que ${n2} e ${n3}.`);
+    }
+    else if (n1 < n2 > n3) {
+        alert (`${n2} é maior que ${n1} e ${n3}.`);
+    }
+    else if (n1 < n2 < n3) {
+        alert (`${n3} é maior que ${n1} e ${n2}.`);
+    }
+    </script>
